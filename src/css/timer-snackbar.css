@@ -1,0 +1,133 @@
+/* timer styles */
+
+body {
+    font-family: montserrat;
+    margin-top: 36px;
+    margin-left: 156px;
+}
+
+.datetime-picker {
+    box-sizing: border-box;
+    width: 272px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #2E2F42;
+    text-transform: uppercase;
+}
+
+.timerbutton {
+    background-color: #4E75FF;
+    width: 75px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+
+.timerbutton:disabled {
+    background-color: #CFCFCF;
+    cursor: not-allowed;
+}
+
+.timerbutton:hover {
+    background-color: #6C8CFF;
+    cursor: not-allowed;
+}
+
+
+/* snackbar styles */
+
+.snackbutton {
+    background-color: #4E75FF;
+    height: 40px;
+    width: 360px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+.snackbutton:hover {
+    background-color: #6C8CFF;
+}
+
+.snacklabel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #2E2F42;
+}
+
+.input {
+    height: 40px;
+    width: 360px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.fieldset {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #2E2F42;
+    height: 78px;
+    width: 360px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
